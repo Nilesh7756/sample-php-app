@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: php-deployment
+  namespace: jellyfish-agencysite
+  labels:
+    app: php-app
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: php-app
+    spec:
+      containers:
+      - name: sample-php
+        image: nilesh7756/sample-php:${BUILD_NUMBER}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
