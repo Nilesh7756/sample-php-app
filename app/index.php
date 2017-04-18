@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Welcome to Container World :)</h1>
                 <h2>Congratulations!</h2>
-                <p>Bingo !! Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo;.</p>
+                <p>Congrts Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo;.</p>
                 <p>This host is running PHP version <?php echo phpversion(); ?>.</p>
             </div>
         </div>
