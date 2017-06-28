@@ -2,7 +2,6 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: php-deployment
-  namespace: jellyfish-agencysite
   labels:
     app: php-app
 spec:
